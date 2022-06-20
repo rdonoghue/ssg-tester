@@ -6,3 +6,4 @@
 
 [Tutorial link](https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/)
 [A Thing I'll Care About Later](https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/)
+[11ty docs](https://www.11ty.dev/docs/tutorials/)
