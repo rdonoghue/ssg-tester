@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
@@ -15,11 +18,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rdonoghue/ssg-tester/issues"
-  },
-  "scripts": {
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy"
   },
   "homepage": "https://github.com/rdonoghue/ssg-tester#readme",
   "devDependencies": {
