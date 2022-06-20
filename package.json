@@ -16,6 +16,11 @@
   "bugs": {
     "url": "https://github.com/rdonoghue/ssg-tester/issues"
   },
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
   "homepage": "https://github.com/rdonoghue/ssg-tester#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
